@@ -11,7 +11,7 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({ currentCamera, onCamer
   const [isPlaying, setIsPlaying] = useState(true);
   
   const cameras = [
-    { id: 1, thumbnail: '../../dist/assets/Screenshot (9).png' },
+    { id: 1, thumbnail: '/assets/Screenshot (9).png' },
     { id: 2, thumbnail: 'https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg?auto=compress&cs=tinysrgb&w=400' }
   ];
 
@@ -27,7 +27,7 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({ currentCamera, onCamer
         
         <div className="absolute top-4 left-4 bg-black/80 px-2 py-1 rounded text-xs">
           <span className="text-white font-mono">
-            📅 11/7/2025 - 03:12:37
+            📅 24/7/2025 - 03:12:37
           </span>
         </div>
 

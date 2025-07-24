@@ -56,7 +56,7 @@ export const IncidentList: React.FC<IncidentListProps> = ({ onResolve }) => {
       timeRange: '14:35 - 14:37',
       date: '7-Jul-2025',
       camera: 'Shop Floor Camera A',
-      thumbnail: '../../dist/assets/download.jpeg' ,
+      thumbnail: '/assets/download.jpeg' ,
       resolved: false
     },
     {
