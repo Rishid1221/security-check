@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Play, Pause, SkipBack, SkipForward, Volume2, RotateCcw, Settings } from 'lucide-react';
-import screenshot from '../../dist/assets/Screenshot (9).png'
 
 interface VideoPlayerProps {
   currentCamera: number;
@@ -20,7 +19,7 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({ currentCamera, onCamer
     
       <div className="relative bg-black aspect-video">
         <img 
-          src={screenshot}
+src="/assets/Screenshot (9).png" 
           alt="CCTV Feed"
           className="w-full h-full object-cover"
         />
